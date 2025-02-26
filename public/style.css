@@ -1,0 +1,17 @@
+body {
+     font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; 
+    }
+
+h1, h2 { 
+    text-align: center; 
+}
+
+ul { 
+    list-style: none; padding: 0; 
+}
+li { 
+    background: #f4f4f4; margin: 5px 0; padding: 10px; border-radius: 5px;
+ }
+button {
+     margin-left: 10px; cursor: pointer; 
+    }

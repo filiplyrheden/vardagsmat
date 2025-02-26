@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptsamling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vardagsmat</h1>
+    
+    <h2>Lägg till recept</h2>
+    <input type="text" id="name" placeholder="Receptnamn">
+    <textarea id="ingredients" placeholder="Ingredienser (kommaseparerade)"></textarea>
+    <textarea id="instructions" placeholder="Instruktioner"></textarea>
+    <button onclick="addRecipe()">Lägg till</button>
+
+    <h2>Veckomeny</h2>
+    <button onclick="generateMenu()">Generera veckomeny</button>
+    <ul id="menuList"></ul>
+
+    <h2>Receptlista</h2>
+    <ul id="recipeList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
